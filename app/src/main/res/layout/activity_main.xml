@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+    <RelativeLayout    android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <EditText
+        android:id="@+id/ip1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:inputType="date"
+        android:color="#728ea3" />
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="连接"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/myimageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:id="@+id/container"-->
+<!--android:orientation="vertical"-->
+<!--tools:context=".MainActivity" >-->
+
+    <!--<EditText-->
+        <!--app:layout_contraintBottom_toBottomOf="parent"-->
+        <!--android:id="@+id/ip1"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:color="#728ea3"-->
+        <!--android:inputType="date" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/start"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="start" />-->
+
+    <!--<SurfaceView-->
+    <!--android:id="@+id/surfaceView"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--/>-->
+
+
+    <!---->
+<!--</LinearLayout>-->
